@@ -1,0 +1,20 @@
+Initialize variables
+	wins, losses, guessCounter, wordbank[], word["_", ...], chosen["j", "a", ...]
+	
+clean the slate
+	resets the hangman image
+	pick a word
+	display the word in blanks
+	put word, letter by letter in array
+	
+	
+
+
+When key pressed
+	if(key is part of word)
+		for(length of chosen)
+			compare if letter matched index chosen[i]
+			replace blanks array element with letter
+	else 
+	
+	
